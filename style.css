@@ -82,7 +82,7 @@
 
  .fechar-animation{
     position: absolute;
-    top: -11%;
+    top: -10%;
     right: -55px;
     background-color: rgb(97, 243, 57);
     height: 70px;
@@ -91,7 +91,7 @@
  }
  .fechar-animation.animate-entrar{
   animation: mover-na-diagonal-entrar 1s ease-in-out 1;
-  transform: translateX(-60%) translateY(60%);
+  transform: translateX(-60%) translateY(90%);
 }
 .fechar-animation.animate-sair{
   animation: mover-na-diagonal-sair 1.5s ease-in-out 1;
@@ -103,12 +103,12 @@
       transform: translateX(0) translateY(0);
   }
   100% {
-      transform: translateX(-60%) translateY(60%);
+      transform: translateX(-60%) translateY(90%);
   }
 }  
 @keyframes mover-na-diagonal-sair {
   0% {
-      transform:  translateX(-60%) translateY(60%);
+      transform:  translateX(-60%) translateY(90%);
   }
   100% {
       transform: translateX(20%) translateY(-20%);
